@@ -317,17 +317,6 @@ if __name__=="__main__":
 					if line[-1] in operator_alias:
 						print "Error 002 - Operator (* or /) can't be at the end of the instruction"
 						continue
-
-					#-- Adding validation for just 10 operators --
-					operators_counter = 0
-					for operation in operator_alias:
-						operators_counter += line.count(operation)
-						if operation == '-' and is_minus_sign(line): 
-							operators_counter -= 1
-
-					if operators_counter > 10:
-						print "Error 003 - Too many operators (%s) in just one line. Application just admits 10." % operators_counter
-						continue
 				
 					#-- Printing result --
 					print str(run(line))
