@@ -35,12 +35,9 @@
 	
 	Run application:
 	dev@localhost:~/home/calc$ ./calc.py
-
 	or
-
 	dev@localhost:~/home/calc$ python calc.py
 
 	Run tests:
-
 	dev@localhost:~/home/calc$ nosetests tests.py
 	
