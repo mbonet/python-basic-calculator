@@ -23,12 +23,12 @@
 	Numbers all integers in the range -9.999.999 to 9.999.999 (inclusive) 
 	the English words for all integers in the above range, e.g. "minus two thousand and one"
 
-	Sample Input		Sample output
-	--------------		---------------
-	7 + 2			9
-	8/3			2
-	3 divided by 0	 	ERROR
-	twenty one times 2	42
+	Sample Input            Sample output
+	--------------          ---------------
+	7 + 2                   9
+	8/3                     2
+	3 divided by 0          ERROR
+	twenty one times 2      42
 	<empty line>
 
 ## How to run
