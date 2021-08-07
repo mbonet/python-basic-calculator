@@ -1,7 +1,7 @@
 # Python Basic Calculator
 
 ## Credits
-	M. Bonet and Greg Hewgill (https://github.com/ghewgill/text2num) 
+	M. Bonet and Greg Hewgill (https://github.com/ghewgill/text2num)
 
 ## Definition
 
